@@ -1,0 +1,18 @@
+.container {
+    margin: 10%;
+    font-family: Arial, sans-serif;
+  }
+  
+  .data-table {
+    border-collapse: collapse;
+    width: 80%;
+  }
+  
+  .data-table th, .data-table td {
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .data-table th {
+    font-weight: bold;
+  }
