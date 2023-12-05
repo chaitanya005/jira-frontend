@@ -9,7 +9,7 @@ const Issues = () => {
 
   useEffect(() => {
     axios
-      .get("http://localhost:4000/issues")
+      .get("https://jira-integration.onrender.com/issues")
       .then((response) => {
         let assignedData = {};
         let unAssignedData = {
